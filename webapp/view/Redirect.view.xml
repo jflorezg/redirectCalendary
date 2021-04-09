@@ -1,0 +1,57 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" controllerName="com.xpertal.redirect.redirectCalendary.controller.Redirect" displayBlock="true">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}" backgroundDesign="Solid">
+					<content>
+						<VBox class="sapUiSmallMargin" width="100%">
+		<HBox width="100%" id="hbox0">
+		    <items>
+		        <VBox width="100%" direction="Column" id="vbox1">
+		            <items>
+		                <f:SimpleForm xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:l="sap.ui.layout" xmlns:f="sap.ui.layout.form" id="SimpleFormChange354" minWidth="1024" maxContainerCols="2" layout="ResponsiveLayout" editable="true" visible="true" columnsL="4" columnsM="4" emptySpanL="4" emptySpanM="4" emptySpanS="4" width="auto">
+		                    <f:content>
+		                        <Label xmlns="sap.m" text="CRPLAZA" id="label0"/>
+		                        <Input xmlns="sap.m" width="40%" id="inputCrplaza" fieldWidth="auto"/>
+		                        <Label xmlns="sap.m" id="label1" text="CRTIENDA"/>
+		                        <Input xmlns="sap.m" width="40%" id="inputCrtienda" fieldWidth="auto"/>
+		                        </f:content>
+		                    
+		                </f:SimpleForm>
+		            </items>
+		        </VBox>
+		    </items>
+		</HBox>
+						<items/>
+						</VBox>
+						<Bar id="bar0" translucent="true">
+											<contentMiddle>
+												<Button xmlns="sap.m" id="btnRedirect" text="IR" press="onRedirectclick" width="40%" type="Accept"/>
+											</contentMiddle>
+										<contentRight>
+										</contentRight>
+										</Bar>
+						<!--<l:Grid defaultSpan="L12 M7 S12" width="auto">
+							<l:content>
+								<f:SimpleForm id="SimpleFormChange354" minWidth="1024" maxContainerCols="2" layout="ResponsiveLayout" editable="true" visible="true">
+									<f:content>
+										<Label text="CRPLAZA" id="label0"/>
+										<Input width="40%" id="inputCrplaza"/>
+										<Label id="label1" text="CRTIENDA"/>
+										<Input width="40%" id="inputCrtienda"/>
+										<Button xmlns="sap.m" id="btnRedirect" activeIcon="sap-icon://arrow-right" text="IR" press="onRedirectclick" width="40%"/>
+										<Bar id="bar0" translucent="false" design="Header">
+											<contentMiddle>
+												<Button text="Submit" width="100px" type="Accept"/>
+											</contentMiddle>
+										</Bar>
+									</f:content>
+								</f:SimpleForm>
+							</l:content>
+						</l:Grid>-->
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
